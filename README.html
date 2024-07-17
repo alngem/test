@@ -1,1066 +1,710 @@
-<div class="main-container" id="main-container">
-			<script type="text/javascript">
-				try{ace.settings.check('main-container' , 'fixed')}catch(e){}
-			</script>
-
-			<div id="sidebar" class="sidebar                  responsive" data-sidebar="true" data-sidebar-scroll="true" data-sidebar-hover="true">
-				<script type="text/javascript">
-					try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
-				</script>
-
-				<ul class="nav nav-list">
-                <!--
-					<li class="active">
-						<a href="#" id="mnuDashboard">
-							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> Dashboard </span>
-						</a>
-
-						<b class="arrow"></b>
-					</li>
-					<li>
-						<a href="#" id="mnuSurvey">
-							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text"> Survey </span>
-						</a>
-
-						<b class="arrow"></b>
-					</li>
-                -->
-                
-       
-                
-        	                <li class="active">
-						<a href="#" id="mnuDashboard">
-							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text"> Dashboard </span>
-						</a>
-
-						<b class="arrow"></b>
-					</li>
-                               
-   			   
-					<li>
-						<a href="#" id="mnuSurvey">
-							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text"> Survey </span>
-						</a>
-
-						<b class="arrow"></b>
-					</li>
-                               
-                                 
-                
-                
-                
-                
-                              
-                  
-                <li>
-						<a href="#" id="mnuESU">
-							<i class="menu-icon fa fa-refresh"></i>
-							<span class="menu-text"> ESU </span>
-						</a>
-
-						<b class="arrow"></b>
-					</li>
-                               
-                                 
-                 					<!--
-					<li class="">
-						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-file-text-o"></i>
-							<span class="menu-text"> Reports </span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-
-						<ul class="submenu">
-							<li class="">
-								<a href="#" id="mnuReportSurvey">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Survey
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Agencies
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
-					</li>
-					-->
-					  
-                <li>
-						<a href="http://196.218.149.186:8027/#reportStatus" id="mnustatus">
-							<i class="menu-icon fa fa-cubes "></i>
-							<span class="menu-text"> report_status </span>
-						</a>
-
-						<b class="arrow"></b>
-					</li>
-										<li class="">
-						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-pencil-square-o"></i>
-							<span class="menu-text"> Editing </span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-
-						<ul class="submenu">
-														<li class="">
-								<a href="#" id="mnuEditHospital">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Hospital
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-														
-														<li class="">
-								<a href="#" id="mnuEditEquipment">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Equipment
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-														
-														<li class="">
-								<a href="#" id="mnuEditContract">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Contract
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-														
-														<li class="">
-								<a href="#" id="mnuEditCompany">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Company
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-														
-														
-														
-														<li class="">
-								<a href="#" id="mnuEditEquipmentName">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Equipment Name
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-														
-														<li class="">
-								<a href="#" id="mnuEditDepartmentType">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Department Type
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-														
-														<li class="">
-								<a href="#" id="mnuEditProject">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Project
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							                        
-                                                
-                        							
-							
-							 							<li class="">
-								<a href="#" id="mnuReportSurvey">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Reports
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-							                        
-                        
-							<!--
-							<li class="">
-								<a href="#" class="dropdown-toggle">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Prices
-									<b class="arrow fa fa-angle-down"></b>
-								</a>
-
-								<b class="arrow"></b>
-
-								<ul class="submenu">
-									<li class="">
-										<a href="#">
-											<i class="menu-icon fa fa-caret-right"></i>
-											Equipment
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-									<li class="">
-										<a href="#">
-											<i class="menu-icon fa fa-caret-right"></i>
-											Part
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-
-									<li class="">
-										<a href="#">
-											<i class="menu-icon fa fa-caret-right"></i>
-											Accessory
-										</a>
-
-										<b class="arrow"></b>
-									</li>									
-								</ul>
-							</li>
-							-->
-							
-						</ul>
-					</li>
-					
-					
-				</ul><!-- /.nav-list -->
-
-				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
-					<i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
-				</div>
-
-				<script type="text/javascript">
-					try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
-				</script>
-			</div>
-
-			<div id="main-content" class="main-content">			<div class="main-content-inner">
-					<div class="breadcrumbs" id="breadcrumbs">
-						<script type="text/javascript">
-							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
-						</script>
-
-						<ul class="breadcrumb">
-							<li>
-								<i class="ace-icon fa fa-home home-icon"></i>
-								<a href="#">Home</a>
-							</li>
-							<li class="active">Dashboard</li>
-						</ul><!-- /.breadcrumb -->
-
-						
-					</div>
-
-					<div class="page-content">						
-
-						<div class="page-header">
-							<h1>
-								Dashboard
-								<small>
-									<i class="ace-icon fa fa-angle-double-right"></i>
-									overview &amp; status
-								</small>
-							</h1>
-						</div><!-- /.page-header -->
-						
-						<div class="row">
-						
-							<div class="form-group">
-								<label class="control-label no-padding-right" for="hospital">Hospital </label>
-									<select id="hospital" multiple="multiple" style="display: none;"><option value="الرئيسي(القديم)" label="الرئيسي(القديم)" title="الرئيسي(القديم)" selected="selected"></option><option value="القلب والصدر" label="القلب والصدر" title="القلب والصدر" selected="selected"></option><option value="الكبد والجهاز الهضمي" label="الكبد والجهاز الهضمي" title="الكبد والجهاز الهضمي" selected="selected"></option><option value="الكلى والمسالك البولية" label="الكلى والمسالك البولية" title="الكلى والمسالك البولية" selected="selected"></option><option value="النساء والأطفال" label="النساء والأطفال" title="النساء والأطفال" selected="selected"></option><option value="طب وجراحة العيون" label="طب وجراحة العيون" title="طب وجراحة العيون" selected="selected"></option></select><div class="btn-group"><button type="button" class="multiselect dropdown-toggle btn btn-primary" data-toggle="dropdown" title=", , , , , "><span class="multiselect-selected-text">All selected (6)</span> <b class="caret"></b></button><ul class="multiselect-container dropdown-menu" style="max-height: 200px; overflow: hidden auto;"><li class="multiselect-item filter" value="0"><div class="input-group"><span class="input-group-addon"><i class="fa fa-search"></i></span><input class="form-control multiselect-search" type="text" placeholder="Search"><span class="input-group-btn"><button class="btn btn-default btn-white btn-grey multiselect-clear-filter" type="button"><i class="fa fa-times-circle red2"></i></button></span></div></li><li class="multiselect-item multiselect-all active"><a tabindex="0" class="multiselect-all"><label class="checkbox"><input type="checkbox" value="multiselect-all">  Select all</label></a></li><li class="active"><a tabindex="0"><label class="checkbox" title="الرئيسي(القديم)"><input type="checkbox" value="الرئيسي(القديم)"> الرئيسي(القديم)</label></a></li><li class="active"><a tabindex="0"><label class="checkbox" title="القلب والصدر"><input type="checkbox" value="القلب والصدر"> القلب والصدر</label></a></li><li class="active"><a tabindex="0"><label class="checkbox" title="الكبد والجهاز الهضمي"><input type="checkbox" value="الكبد والجهاز الهضمي"> الكبد والجهاز الهضمي</label></a></li><li class="active"><a tabindex="0"><label class="checkbox" title="الكلى والمسالك البولية"><input type="checkbox" value="الكلى والمسالك البولية"> الكلى والمسالك البولية</label></a></li><li class="active"><a tabindex="0"><label class="checkbox" title="النساء والأطفال"><input type="checkbox" value="النساء والأطفال"> النساء والأطفال</label></a></li><li class="active"><a tabindex="0"><label class="checkbox" title="طب وجراحة العيون"><input type="checkbox" value="طب وجراحة العيون"> طب وجراحة العيون</label></a></li></ul></div>
-							</div>
-						
-						</div>
-
-						
-						<div class="row">
-							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-								<div class="row">
-									<div class="col-xs-12 col-sm-6 widget-container-col">
-										<div class="widget-box transparent">
-											<div class="widget-header">
-												<h5 class="widget-title">Equipment Status</h5>
-
-												<div class="widget-toolbar">
-													
-													<a href="#" data-action="collapse">
-														<i class="ace-icon fa fa-chevron-up"></i>
-													</a>
-													
-												</div>
-											</div>
-
-											<div class="widget-body">
-												<div class="widget-main with-3d-shadow with-transitions">
-													
-													<div id="mainechart1" style="height: 400px; border: 1px solid rgb(204, 204, 204); padding: 10px; -webkit-tap-highlight-color: transparent; user-select: none; position: relative; background: transparent;" _echarts_instance_="ec_1718254971176"><div style="position: relative; overflow: hidden; width: 385px; height: 377px; cursor: default;"><canvas width="385" height="377" data-zr-dom-id="zr_0" style="position: absolute; left: 0px; top: 0px; width: 385px; height: 377px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas></div><div></div></div>
-													
-												</div>
-											</div>
-										</div>
-									</div>
-									
-									<div class="col-xs-12 col-sm-6 widget-container-col">
-										<div class="widget-box transparent">
-											<div class="widget-header">
-												<h5 class="widget-title">Contracts' Types</h5>
-
-												<div class="widget-toolbar">
-													
-													<a href="#" data-action="collapse">
-														<i class="ace-icon fa fa-chevron-up"></i>
-													</a>
-
-													
-												</div>
-											</div>
-
-											<div class="widget-body">
-												<div class="widget-main">
-													
-													<div id="mainechart2" style="height: 400px; border: 1px solid rgb(204, 204, 204); padding: 10px; -webkit-tap-highlight-color: transparent; user-select: none; position: relative; background: transparent;" _echarts_instance_="ec_1718254971177"><div style="position: relative; overflow: hidden; width: 385px; height: 377px;"><canvas width="385" height="377" data-zr-dom-id="zr_0" style="position: absolute; left: 0px; top: 0px; width: 385px; height: 377px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas></div><div></div></div>
-													
-												</div>
-											</div>
-										</div>
-									</div>
-
-									
-								</div><!-- /.row -->
-
-								<div class="space-24"></div>								
-
-								<div class="row">
-									<div class="col-sm-6 widget-container-col">
-										<div class="widget-box transparent">
-											<div class="widget-header">
-												<h5 class="widget-title">Warranty</h5>
-
-												<div class="widget-toolbar">
-													
-													<a href="#" data-action="fullscreen" class="orange2">
-														<i class="ace-icon fa fa-expand"></i>
-													</a>
-
-													<a href="#" data-action="collapse">
-														<i class="ace-icon fa fa-chevron-up"></i>
-													</a>
-
-													
-												</div>
-											</div>
-
-											<div class="widget-body">
-												<div class="widget-main padding-6 no-padding-left no-padding-right">
-													<ul class="nav nav-tabs" id="myTab1">
-														<li class="active">
-															<a data-toggle="tab" href="#warranty">Warranty</a>
-														</li>
-
-														<li>
-															<a data-toggle="tab" href="#warrantyless90">Warranty end within 90 days</a>
-														</li>
-														
-													</ul>
-													
-													<div class="tab-content padding-4">
-														<div id="warranty" class="tab-pane in active">
-															<div id="dtwarranty_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row"><div class="col-sm-6"><div class="dataTables_length" id="dtwarranty_length"><label>Show <select name="dtwarranty_length" aria-controls="dtwarranty" class="form-control input-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-6"><div id="dtwarranty_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="dtwarranty"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="dtwarranty" class="display table table-striped table-hover dt-responsive dataTable no-footer collapsed dtr-inline" cellspacing="0" width="100%" role="grid" aria-describedby="dtwarranty_info" style="width: 100%;">
-																<thead>
-																	<tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="dtwarranty" rowspan="1" colspan="1" style="width: 56px;" aria-sort="ascending" aria-label="Hospital: activate to sort column descending">Hospital</th><th class="sorting" tabindex="0" aria-controls="dtwarranty" rowspan="1" colspan="1" style="width: 80px;" aria-label="Department: activate to sort column ascending">Department</th><th class="sorting" tabindex="0" aria-controls="dtwarranty" rowspan="1" colspan="1" style="width: 55px;" aria-label="Code: activate to sort column ascending">Code</th><th class="sorting" tabindex="0" aria-controls="dtwarranty" rowspan="1" colspan="1" style="width: 60px;" aria-label="Name: activate to sort column ascending">Name</th></tr>
-																</thead>
-															<tbody><tr role="row" class="odd"><td class="sorting_1">القلب والصدر</td><td>الأشعة</td><td>RMO-CSHRAD-0G640</td><td>Radiographic Unit- Mobile</td></tr><tr role="row" class="even"><td class="sorting_1">القلب والصدر</td><td>العمليات</td><td>TAB-CSHORS-2WWT0</td><td></td></tr><tr role="row" class="odd"><td class="sorting_1">القلب والصدر</td><td>العمليات</td><td>TAB-CSHORS-05XM0</td><td>Table- Operating</td></tr><tr role="row" class="even"><td class="sorting_1">القلب والصدر</td><td>مناظير</td><td>ANE-CSHENDO-2WY30</td><td></td></tr><tr role="row" class="odd"><td class="sorting_1">الكبد والجهاز الهضمي</td><td>العمليات</td><td>ESU-LVGORS-2X1O0</td><td></td></tr><tr role="row" class="even"><td class="sorting_1">الكبد والجهاز الهضمي</td><td>العمليات</td><td>ESU-LVGORS-065X0</td><td>Diathermy Unit- Microwave (ESU)</td></tr><tr role="row" class="odd"><td class="sorting_1">الكبد والجهاز الهضمي</td><td>العمليات</td><td>ESU-LVGORS-065W0</td><td>Diathermy Unit- Microwave (ESU)</td></tr><tr role="row" class="even"><td class="sorting_1">الكبد والجهاز الهضمي</td><td>العناية المركزة</td><td>SYR-LVGICU-2ZLP0</td><td></td></tr><tr role="row" class="odd"><td class="sorting_1">الكبد والجهاز الهضمي</td><td>العناية المركزة</td><td>SYR-LVGICU-2ZLQ0</td><td></td></tr><tr role="row" class="even"><td class="sorting_1">الكبد والجهاز الهضمي</td><td>العناية المركزة</td><td>SYR-LVGICU-2ZLR0</td><td></td></tr></tbody></table><div id="dtwarranty_processing" class="dataTables_processing" style="display: none;">Processing...</div></div></div><div class="row"><div class="col-sm-6"><div class="dataTables_info" id="dtwarranty_info" role="status" aria-live="polite">Showing 1 to 10 of 80 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_simple_numbers" id="dtwarranty_paginate"><ul class="pagination"><li class="paginate_button previous disabled" aria-controls="dtwarranty" tabindex="0" id="dtwarranty_previous"><a href="#">Previous</a></li><li class="paginate_button active" aria-controls="dtwarranty" tabindex="0"><a href="#">1</a></li><li class="paginate_button " aria-controls="dtwarranty" tabindex="0"><a href="#">2</a></li><li class="paginate_button " aria-controls="dtwarranty" tabindex="0"><a href="#">3</a></li><li class="paginate_button " aria-controls="dtwarranty" tabindex="0"><a href="#">4</a></li><li class="paginate_button " aria-controls="dtwarranty" tabindex="0"><a href="#">5</a></li><li class="paginate_button disabled" aria-controls="dtwarranty" tabindex="0" id="dtwarranty_ellipsis"><a href="#">…</a></li><li class="paginate_button " aria-controls="dtwarranty" tabindex="0"><a href="#">8</a></li><li class="paginate_button next" aria-controls="dtwarranty" tabindex="0" id="dtwarranty_next"><a href="#">Next</a></li></ul></div></div></div></div>
-														</div>
-
-														<div id="warrantyless90" class="tab-pane">
-															<div id="dtwarrantyless90_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row"><div class="col-sm-6"><div class="dataTables_length" id="dtwarrantyless90_length"><label>Show <select name="dtwarrantyless90_length" aria-controls="dtwarrantyless90" class="form-control input-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-6"><div id="dtwarrantyless90_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="dtwarrantyless90"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="dtwarrantyless90" class="display table table-striped table-hover dt-responsive dataTable no-footer dtr-inline" cellspacing="0" width="100%" role="grid" aria-describedby="dtwarrantyless90_info" style="width: 100%;">
-																<thead>
-																	<tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="dtwarrantyless90" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Hospital: activate to sort column descending" style="width: 0px;">Hospital</th><th class="sorting" tabindex="0" aria-controls="dtwarrantyless90" rowspan="1" colspan="1" aria-label="Department: activate to sort column ascending" style="width: 0px;">Department</th><th class="sorting" tabindex="0" aria-controls="dtwarrantyless90" rowspan="1" colspan="1" aria-label="Code: activate to sort column ascending" style="width: 0px;">Code</th><th class="sorting" tabindex="0" aria-controls="dtwarrantyless90" rowspan="1" colspan="1" aria-label="Name: activate to sort column ascending" style="width: 0px;">Name</th><th class="sorting" tabindex="0" aria-controls="dtwarrantyless90" rowspan="1" colspan="1" aria-label="Type: activate to sort column ascending" style="width: 0px;">Type</th><th class="sorting" tabindex="0" aria-controls="dtwarrantyless90" rowspan="1" colspan="1" aria-label="Manufacturer: activate to sort column ascending" style="width: 0px;">Manufacturer</th><th class="sorting" tabindex="0" aria-controls="dtwarrantyless90" rowspan="1" colspan="1" aria-label="Model: activate to sort column ascending" style="width: 0px;">Model</th><th class="sorting" tabindex="0" aria-controls="dtwarrantyless90" rowspan="1" colspan="1" aria-label="Serial: activate to sort column ascending" style="width: 0px;">Serial</th><th class="sorting" tabindex="0" aria-controls="dtwarrantyless90" rowspan="1" colspan="1" aria-label="Country: activate to sort column ascending" style="width: 0px;">Country</th><th class="sorting" tabindex="0" aria-controls="dtwarrantyless90" rowspan="1" colspan="1" aria-label="Location: activate to sort column ascending" style="width: 0px;">Location</th><th class="sorting" tabindex="0" aria-controls="dtwarrantyless90" rowspan="1" colspan="1" aria-label="Provider: activate to sort column ascending" style="width: 0px;">Provider</th><th class="sorting" tabindex="0" aria-controls="dtwarrantyless90" rowspan="1" colspan="1" aria-label="Warranty End: activate to sort column ascending" style="width: 0px;">Warranty End</th></tr>
-																</thead>
-															<tbody><tr role="row" class="odd"><td class="sorting_1">القلب والصدر</td><td>مناظير</td><td>ANE-CSHENDO-2WY30</td><td></td><td>Anesthesia Machine- Floor-Standing</td><td>Mindray</td><td>WATOEX-20</td><td>DW-21012989</td><td>China</td><td>المناظير</td><td></td><td>2024-09-01</td></tr><tr role="row" class="even"><td class="sorting_1">القلب والصدر</td><td>الأشعة</td><td>RMO-CSHRAD-0G640</td><td>Radiographic Unit- Mobile</td><td>Radiographic Unit- Mobile</td><td>FujiFilm</td><td>FDR GO PLUS</td><td>566-20000-18</td><td>N/A</td><td>الاشعة</td><td></td><td>2024-06-19</td></tr></tbody></table><div id="dtwarrantyless90_processing" class="dataTables_processing" style="display: none;">Processing...</div></div></div><div class="row"><div class="col-sm-6"><div class="dataTables_info" id="dtwarrantyless90_info" role="status" aria-live="polite">Showing 1 to 2 of 2 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_simple_numbers" id="dtwarrantyless90_paginate"><ul class="pagination"><li class="paginate_button previous disabled" aria-controls="dtwarrantyless90" tabindex="0" id="dtwarrantyless90_previous"><a href="#">Previous</a></li><li class="paginate_button active" aria-controls="dtwarrantyless90" tabindex="0"><a href="#">1</a></li><li class="paginate_button next disabled" aria-controls="dtwarrantyless90" tabindex="0" id="dtwarrantyless90_next"><a href="#">Next</a></li></ul></div></div></div></div>
-														</div>														
-													</div>											
-													
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-sm-6 widget-container-col">
-										<div class="widget-box transparent">
-											<div class="widget-header">
-												<h5 class="widget-title">Contracts</h5>
-
-												<div class="widget-toolbar">
-													
-													<a href="#" data-action="fullscreen" class="orange2">
-														<i class="ace-icon fa fa-expand"></i>
-													</a>
-
-													<a href="#" data-action="collapse">
-														<i class="ace-icon fa fa-chevron-up"></i>
-													</a>
-
-													
-												</div>
-											</div>
-
-											<div class="widget-body">
-												<div class="widget-main padding-6 no-padding-left no-padding-right">
-													<ul class="nav nav-tabs" id="myTab1">
-														<li class="active">
-															<a data-toggle="tab" href="#contracts">Contracts</a>
-														</li>
-
-														<li>
-															<a data-toggle="tab" href="#contractsless90">Contracts end within 90 days</a>
-														</li>
-														
-													</ul>
-													
-													<div class="tab-content padding-4">
-														<div id="contracts" class="tab-pane in active">
-															<div id="dtcontracts_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row"><div class="col-sm-6"><div class="dataTables_length" id="dtcontracts_length"><label>Show <select name="dtcontracts_length" aria-controls="dtcontracts" class="form-control input-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-6"><div id="dtcontracts_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="dtcontracts"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="dtcontracts" class="display table table-striped table-hover dt-responsive dataTable no-footer collapsed dtr-inline" cellspacing="0" width="100%" role="grid" aria-describedby="dtcontracts_info" style="width: 100%;">
-																<thead>
-																	<tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="dtcontracts" rowspan="1" colspan="1" style="width: 54px;" aria-sort="ascending" aria-label="Hospital: activate to sort column descending">Hospital</th><th class="sorting" tabindex="0" aria-controls="dtcontracts" rowspan="1" colspan="1" style="width: 80px;" aria-label="Department: activate to sort column ascending">Department</th><th class="sorting" tabindex="0" aria-controls="dtcontracts" rowspan="1" colspan="1" style="width: 46px;" aria-label="Code: activate to sort column ascending">Code</th><th class="sorting" tabindex="0" aria-controls="dtcontracts" rowspan="1" colspan="1" style="width: 70px;" aria-label="Name: activate to sort column ascending">Name</th></tr>
-																</thead>
-															<tbody><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>ANE-MANORS-0T1U0</td><td></td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>ANE-MANORS-0T1T0</td><td></td></tr><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>الأقسام الداخلية</td><td>END-MANIPD-0FPO0</td><td>Endoscope</td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>POW-LVGORS-06540</td><td>Power led 176</td></tr><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>الأقسام الداخلية</td><td>END-MANIPD-0FPP0</td><td>Endoscope</td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>ANE-MANORS-05LP0</td><td>Anesthesia Machine- Floor-Standing</td></tr><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>العناية المركزة</td><td>DEF-MANICU-0FKL0</td><td>Defibrillator- External- Fully Automated</td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>ANE-MANORS-05MJ0</td><td>Anesthesia Machine- Floor-Standing</td></tr><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>الأقسام الداخلية</td><td>LRS-MANIPD-0FIV0</td><td>Larango Scope</td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>CAM-MANORS-05MQ0</td><td>Camera- Endoscope</td></tr></tbody></table><div id="dtcontracts_processing" class="dataTables_processing" style="display: none;">Processing...</div></div></div><div class="row"><div class="col-sm-6"><div class="dataTables_info" id="dtcontracts_info" role="status" aria-live="polite">Showing 1 to 10 of 397 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_simple_numbers" id="dtcontracts_paginate"><ul class="pagination"><li class="paginate_button previous disabled" aria-controls="dtcontracts" tabindex="0" id="dtcontracts_previous"><a href="#">Previous</a></li><li class="paginate_button active" aria-controls="dtcontracts" tabindex="0"><a href="#">1</a></li><li class="paginate_button " aria-controls="dtcontracts" tabindex="0"><a href="#">2</a></li><li class="paginate_button " aria-controls="dtcontracts" tabindex="0"><a href="#">3</a></li><li class="paginate_button " aria-controls="dtcontracts" tabindex="0"><a href="#">4</a></li><li class="paginate_button " aria-controls="dtcontracts" tabindex="0"><a href="#">5</a></li><li class="paginate_button disabled" aria-controls="dtcontracts" tabindex="0" id="dtcontracts_ellipsis"><a href="#">…</a></li><li class="paginate_button " aria-controls="dtcontracts" tabindex="0"><a href="#">40</a></li><li class="paginate_button next" aria-controls="dtcontracts" tabindex="0" id="dtcontracts_next"><a href="#">Next</a></li></ul></div></div></div></div>
-														</div>
-
-														<div id="contractsless90" class="tab-pane">
-															<div id="dtcontractsless90_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row"><div class="col-sm-6"><div class="dataTables_length" id="dtcontractsless90_length"><label>Show <select name="dtcontractsless90_length" aria-controls="dtcontractsless90" class="form-control input-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-6"><div id="dtcontractsless90_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="dtcontractsless90"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="dtcontractsless90" class="display table table-striped table-hover dt-responsive dataTable no-footer dtr-inline" cellspacing="0" width="100%" role="grid" aria-describedby="dtcontractsless90_info" style="width: 100%;">
-																<thead>
-																	<tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="dtcontractsless90" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Hospital: activate to sort column descending" style="width: 0px;">Hospital</th><th class="sorting" tabindex="0" aria-controls="dtcontractsless90" rowspan="1" colspan="1" aria-label="Department: activate to sort column ascending" style="width: 0px;">Department</th><th class="sorting" tabindex="0" aria-controls="dtcontractsless90" rowspan="1" colspan="1" aria-label="Code: activate to sort column ascending" style="width: 0px;">Code</th><th class="sorting" tabindex="0" aria-controls="dtcontractsless90" rowspan="1" colspan="1" aria-label="Name: activate to sort column ascending" style="width: 0px;">Name</th><th class="sorting" tabindex="0" aria-controls="dtcontractsless90" rowspan="1" colspan="1" aria-label="Type: activate to sort column ascending" style="width: 0px;">Type</th><th class="sorting" tabindex="0" aria-controls="dtcontractsless90" rowspan="1" colspan="1" aria-label="Manufacturer: activate to sort column ascending" style="width: 0px;">Manufacturer</th><th class="sorting" tabindex="0" aria-controls="dtcontractsless90" rowspan="1" colspan="1" aria-label="Model: activate to sort column ascending" style="width: 0px;">Model</th><th class="sorting" tabindex="0" aria-controls="dtcontractsless90" rowspan="1" colspan="1" aria-label="Serial: activate to sort column ascending" style="width: 0px;">Serial</th><th class="sorting" tabindex="0" aria-controls="dtcontractsless90" rowspan="1" colspan="1" aria-label="Country: activate to sort column ascending" style="width: 0px;">Country</th><th class="sorting" tabindex="0" aria-controls="dtcontractsless90" rowspan="1" colspan="1" aria-label="Location: activate to sort column ascending" style="width: 0px;">Location</th><th class="sorting" tabindex="0" aria-controls="dtcontractsless90" rowspan="1" colspan="1" aria-label="Contract Company: activate to sort column ascending" style="width: 0px;">Contract Company</th><th class="sorting" tabindex="0" aria-controls="dtcontractsless90" rowspan="1" colspan="1" aria-label="Contract End: activate to sort column ascending" style="width: 0px;">Contract End</th></tr>
-																</thead>
-															<tbody><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>ANE-MANORS-05M20</td><td>Anesthesia Machine- Floor-Standing</td><td>Anesthesia Machine- Floor-Standing</td><td>GE</td><td>Aspire view</td><td>APHQ01227</td><td>N/A</td><td>عمليات جراحة عامة</td><td>جي إي للانظمة الطبية</td><td>2024-06-30</td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>ANE-MANORS-0T1U0</td><td></td><td>Anesthesia Machine- Floor-Standing</td><td>GE</td><td>CARESTATION 650 A1</td><td>SM721050022MA</td><td>N/A</td><td>عمليات العظام الجديدة</td><td>جي إي للانظمة الطبية</td><td>2024-06-30</td></tr><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>ANE-MANORS-05LT0</td><td>Anesthesia Machine- Floor-Standing</td><td>Anesthesia Machine- Floor-Standing</td><td>GE</td><td>Carestation</td><td>SM721050024MA</td><td>N/A</td><td>عمليات الإستقبال غرفه (3)</td><td>جي إي للانظمة الطبية</td><td>2024-06-30</td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>ANE-MANORS-05M10</td><td>Anesthesia Machine- Floor-Standing</td><td>Anesthesia Machine- Floor-Standing</td><td>GE</td><td>Aspire view</td><td>APHQ01226</td><td>N/A</td><td>عمليات العظام والتجميل</td><td>جي إي للانظمة الطبية</td><td>2024-06-30</td></tr><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>ANE-MANORS-05M30</td><td>Anesthesia Machine- Floor-Standing</td><td>Anesthesia Machine- Floor-Standing</td><td>GE</td><td>Aspire view	</td><td>APHQ01228</td><td>N/A</td><td>عمليات أنف و أذنغرفة (2)</td><td>جي إي للانظمة الطبية</td><td>2024-06-30</td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>PHO-MANORS-05KO0</td><td>Photocoagulator</td><td>Photocoagulator</td><td>IRIDEX</td><td>IRIS Medical OcuLight SLx</td><td>N.A.</td><td>N/A</td><td>عمليات الرمد</td><td>مركز طيبة للأجهزة الطبية</td><td>2024-06-30</td></tr><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>ANE-MANORS-05MJ0</td><td>Anesthesia Machine- Floor-Standing</td><td>Anesthesia Machine- Floor-Standing</td><td>GE</td><td>Carestation</td><td>SM721050025MA</td><td>N/A</td><td>عمليات الإستقبال غرفه (2)</td><td>جي إي للانظمة الطبية</td><td>2024-06-30</td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>ANE-MANORS-05MB0</td><td>Anesthesia Machine- Floor-Standing</td><td>Anesthesia Machine- Floor-Standing</td><td>GE</td><td>Aespire view</td><td>APHV00508</td><td>N/A</td><td>عمليات الإستقبال غرفه (1)</td><td>جي إي للانظمة الطبية</td><td>2024-06-30</td></tr><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>ANE-MANORS-05MN0</td><td>Anesthesia Machine- Floor-Standing</td><td>Anesthesia Machine- Floor-Standing</td><td>GE</td><td>Carestation </td><td>SM721050020MA</td><td>N/A</td><td>عمليات الإستقبال غرفه (1)</td><td>جي إي للانظمة الطبية</td><td>2024-06-30</td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>العمليات</td><td>ANE-MANORS-0T1T0</td><td></td><td>Anesthesia Machine- Floor-Standing</td><td>GE</td><td>carestation 650 A1</td><td>SM721050019MA</td><td>N/A</td><td>عمليات العظام الجديدة</td><td>جي إي للانظمة الطبية</td><td>2024-06-30</td></tr></tbody></table><div id="dtcontractsless90_processing" class="dataTables_processing" style="display: none;">Processing...</div></div></div><div class="row"><div class="col-sm-6"><div class="dataTables_info" id="dtcontractsless90_info" role="status" aria-live="polite">Showing 1 to 10 of 150 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_simple_numbers" id="dtcontractsless90_paginate"><ul class="pagination"><li class="paginate_button previous disabled" aria-controls="dtcontractsless90" tabindex="0" id="dtcontractsless90_previous"><a href="#">Previous</a></li><li class="paginate_button active" aria-controls="dtcontractsless90" tabindex="0"><a href="#">1</a></li><li class="paginate_button " aria-controls="dtcontractsless90" tabindex="0"><a href="#">2</a></li><li class="paginate_button " aria-controls="dtcontractsless90" tabindex="0"><a href="#">3</a></li><li class="paginate_button " aria-controls="dtcontractsless90" tabindex="0"><a href="#">4</a></li><li class="paginate_button " aria-controls="dtcontractsless90" tabindex="0"><a href="#">5</a></li><li class="paginate_button disabled" aria-controls="dtcontractsless90" tabindex="0" id="dtcontractsless90_ellipsis"><a href="#">…</a></li><li class="paginate_button " aria-controls="dtcontractsless90" tabindex="0"><a href="#">15</a></li><li class="paginate_button next" aria-controls="dtcontractsless90" tabindex="0" id="dtcontractsless90_next"><a href="#">Next</a></li></ul></div></div></div></div>
-														</div>														
-													</div>											
-													
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								
-								<div class="space-24"></div>	
-								
-								<div class="row">
-									
-									<div class="col-sm-6 widget-container-col">
-										<div class="widget-box transparent">
-											<div class="widget-header">
-												<h5 class="widget-title">Equipment without Warranty or Contract</h5>
-
-												<div class="widget-toolbar">
-													
-													<a href="#" data-action="fullscreen" class="orange2">
-														<i class="ace-icon fa fa-expand"></i>
-													</a>
-
-													<a href="#" data-action="collapse">
-														<i class="ace-icon fa fa-chevron-up"></i>
-													</a>
-
-													
-												</div>
-											</div>
-
-											<div class="widget-body">
-												<div class="widget-main padding-6 no-padding-left no-padding-right">
-													
-													<div id="dtnocontractorwarranty_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row"><div class="col-sm-6"><div class="dataTables_length" id="dtnocontractorwarranty_length"><label>Show <select name="dtnocontractorwarranty_length" aria-controls="dtnocontractorwarranty" class="form-control input-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-6"><div id="dtnocontractorwarranty_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="dtnocontractorwarranty"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="dtnocontractorwarranty" class="display table table-striped table-hover dt-responsive dataTable no-footer collapsed dtr-inline" cellspacing="0" width="100%" role="grid" aria-describedby="dtnocontractorwarranty_info" style="width: 100%;">
-														<thead>
-															<tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="dtnocontractorwarranty" rowspan="1" colspan="1" style="width: 54px;" aria-sort="ascending" aria-label="Hospital: activate to sort column descending">Hospital</th><th class="sorting" tabindex="0" aria-controls="dtnocontractorwarranty" rowspan="1" colspan="1" style="width: 80px;" aria-label="Department: activate to sort column ascending">Department</th><th class="sorting" tabindex="0" aria-controls="dtnocontractorwarranty" rowspan="1" colspan="1" style="width: 83px;" aria-label="Code: activate to sort column ascending">Code</th><th class="sorting" tabindex="0" aria-controls="dtnocontractorwarranty" rowspan="1" colspan="1" style="width: 39px;" aria-label="Name: activate to sort column ascending">Name</th></tr>
-														</thead>
-													<tbody><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>العناية المركزة</td><td>MON-MANICU-2YXQ0</td><td></td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>الأقسام الداخلية</td><td>SUC-MANIPD-2YXF0</td><td></td></tr><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>الأقسام الداخلية</td><td>RHN-MANIPD-2YX60</td><td></td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>الأقسام الداخلية</td><td>SUC-MANIPD-2YXE0</td><td></td></tr><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>الجراحة العامة</td><td>TAB-MANEMR-2ZV70</td><td></td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>الجراحة العامة</td><td>TAB-MANGOR-2ZV80</td><td></td></tr><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>المعامل</td><td>ABG-MANLAB-2YVD0</td><td></td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>العناية المركزة</td><td>MON-MANICU-0QQU0</td><td></td></tr><tr role="row" class="odd"><td class="sorting_1">الرئيسي(القديم)</td><td>المعامل</td><td>CEN-MANLAB-2YVE0</td><td></td></tr><tr role="row" class="even"><td class="sorting_1">الرئيسي(القديم)</td><td>العناية المركزة</td><td>MON-MANICU-2YXR0</td><td></td></tr></tbody></table><div id="dtnocontractorwarranty_processing" class="dataTables_processing" style="display: none;">Processing...</div></div></div><div class="row"><div class="col-sm-6"><div class="dataTables_info" id="dtnocontractorwarranty_info" role="status" aria-live="polite">Showing 1 to 10 of 2,775 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_simple_numbers" id="dtnocontractorwarranty_paginate"><ul class="pagination"><li class="paginate_button previous disabled" aria-controls="dtnocontractorwarranty" tabindex="0" id="dtnocontractorwarranty_previous"><a href="#">Previous</a></li><li class="paginate_button active" aria-controls="dtnocontractorwarranty" tabindex="0"><a href="#">1</a></li><li class="paginate_button " aria-controls="dtnocontractorwarranty" tabindex="0"><a href="#">2</a></li><li class="paginate_button " aria-controls="dtnocontractorwarranty" tabindex="0"><a href="#">3</a></li><li class="paginate_button " aria-controls="dtnocontractorwarranty" tabindex="0"><a href="#">4</a></li><li class="paginate_button " aria-controls="dtnocontractorwarranty" tabindex="0"><a href="#">5</a></li><li class="paginate_button disabled" aria-controls="dtnocontractorwarranty" tabindex="0" id="dtnocontractorwarranty_ellipsis"><a href="#">…</a></li><li class="paginate_button " aria-controls="dtnocontractorwarranty" tabindex="0"><a href="#">278</a></li><li class="paginate_button next" aria-controls="dtnocontractorwarranty" tabindex="0" id="dtnocontractorwarranty_next"><a href="#">Next</a></li></ul></div></div></div></div>
-													
-												</div>
-											</div>
-										</div>
-									</div>
-									
-									<div class="col-sm-6 widget-container-col">
-										<div class="widget-box transparent">
-											<div class="widget-header">
-												<h5 class="widget-title">Equipment Counts</h5>
-
-												<div class="widget-toolbar">
-													
-													<a href="#" data-action="fullscreen" class="orange2">
-														<i class="ace-icon fa fa-expand"></i>
-													</a>
-													
-													<a href="#" data-action="collapse">
-														<i class="ace-icon fa fa-chevron-up"></i>
-													</a>
-													
-													
-												</div>
-											</div>
-
-											<div class="widget-body">
-												<div class="widget-main padding-12 no-padding-left no-padding-right">
-													<div style="padding:10px;" id="equipmentTotal">Equipment Total Count: 3346</div>
-													<ul class="nav nav-tabs" id="myTab2">
-														<li class="active">
-															<a data-toggle="tab" href="#home2">By Manufacturer</a>
-														</li>
-
-														<li>
-															<a data-toggle="tab" href="#profile2">By Type</a>
-														</li>
-
-														<li>
-															<a data-toggle="tab" href="#info2">By Model</a>
-														</li>
-														
-														<li>
-															<a data-toggle="tab" href="#provider">By Provider</a>
-														</li>
-														
-													</ul>
-													
-													<div class="tab-content padding-4">
-														<div id="home2" class="tab-pane in active">
-															<div id="byman_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row"><div class="col-sm-6"><div class="dataTables_length" id="byman_length"><label>Show <select name="byman_length" aria-controls="byman" class="form-control input-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-6"><div id="byman_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="byman"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="byman" class="display table table-striped table-hover dt-responsive dataTable no-footer dtr-inline" cellspacing="0" width="100%" role="grid" aria-describedby="byman_info" style="width: 100%;">
-																<thead>
-																	<tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="byman" rowspan="1" colspan="1" style="width: 212px;" aria-sort="ascending" aria-label="Manufacturer: activate to sort column descending">Manufacturer</th><th class="sorting" tabindex="0" aria-controls="byman" rowspan="1" colspan="1" style="width: 114px;" aria-label="Count: activate to sort column ascending">Count</th></tr>
-																</thead>
-															<tbody><tr role="row" class="odd"><td class="sorting_1">3 Ray</td><td>1</td></tr><tr role="row" class="even"><td class="sorting_1">3 RAY</td><td>2</td></tr><tr role="row" class="odd"><td class="sorting_1">3A</td><td>4</td></tr><tr role="row" class="even"><td class="sorting_1">3TM</td><td>1</td></tr><tr role="row" class="odd"><td class="sorting_1">500XLE</td><td>1</td></tr><tr role="row" class="even"><td class="sorting_1">A.I.O</td><td>1</td></tr><tr role="row" class="odd"><td class="sorting_1">ACCUTOME</td><td>1</td></tr><tr role="row" class="even"><td class="sorting_1">ACP</td><td>2</td></tr><tr role="row" class="odd"><td class="sorting_1">AELTA</td><td>1</td></tr><tr role="row" class="even"><td class="sorting_1">Aespire</td><td>1</td></tr></tbody></table><div id="byman_processing" class="dataTables_processing" style="display: none;">Processing...</div></div></div><div class="row"><div class="col-sm-6"><div class="dataTables_info" id="byman_info" role="status" aria-live="polite">Showing 1 to 10 of 502 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_simple_numbers" id="byman_paginate"><ul class="pagination"><li class="paginate_button previous disabled" aria-controls="byman" tabindex="0" id="byman_previous"><a href="#">Previous</a></li><li class="paginate_button active" aria-controls="byman" tabindex="0"><a href="#">1</a></li><li class="paginate_button " aria-controls="byman" tabindex="0"><a href="#">2</a></li><li class="paginate_button " aria-controls="byman" tabindex="0"><a href="#">3</a></li><li class="paginate_button " aria-controls="byman" tabindex="0"><a href="#">4</a></li><li class="paginate_button " aria-controls="byman" tabindex="0"><a href="#">5</a></li><li class="paginate_button disabled" aria-controls="byman" tabindex="0" id="byman_ellipsis"><a href="#">…</a></li><li class="paginate_button " aria-controls="byman" tabindex="0"><a href="#">51</a></li><li class="paginate_button next" aria-controls="byman" tabindex="0" id="byman_next"><a href="#">Next</a></li></ul></div></div></div></div>
-														</div>
-
-														<div id="profile2" class="tab-pane">
-															<div id="bytype_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row"><div class="col-sm-6"><div class="dataTables_length" id="bytype_length"><label>Show <select name="bytype_length" aria-controls="bytype" class="form-control input-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-6"><div id="bytype_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="bytype"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="bytype" class="display table table-striped table-hover dt-responsive dataTable no-footer dtr-inline" cellspacing="0" width="100%" role="grid" aria-describedby="bytype_info" style="width: 100%;">
-																<thead>
-																	<tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="bytype" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Type: activate to sort column descending" style="width: 0px;">Type</th><th class="sorting" tabindex="0" aria-controls="bytype" rowspan="1" colspan="1" aria-label="Count: activate to sort column ascending" style="width: 0px;">Count</th></tr>
-																</thead>
-															<tbody><tr role="row" class="odd"><td class="sorting_1">Ablation System- Radiofrequency</td><td>1</td></tr><tr role="row" class="even"><td class="sorting_1">Acoustic Pharyngometer Rhinometer</td><td>46</td></tr><tr role="row" class="odd"><td class="sorting_1">Activating clotting time analyzer</td><td>4</td></tr><tr role="row" class="even"><td class="sorting_1">Analyzer- Blood Gases (ABG)</td><td>19</td></tr><tr role="row" class="odd"><td class="sorting_1">Analyzer- Chemistry</td><td>4</td></tr><tr role="row" class="even"><td class="sorting_1">Analyzer- Chemistry- Fully Automated</td><td>14</td></tr><tr role="row" class="odd"><td class="sorting_1">Analyzer- Chemistry- Semi Automated</td><td>10</td></tr><tr role="row" class="even"><td class="sorting_1">Analyzer- Coagulation- Fully Automated</td><td>6</td></tr><tr role="row" class="odd"><td class="sorting_1">Analyzer- Coagulation- Manual</td><td>1</td></tr><tr role="row" class="even"><td class="sorting_1">Analyzer- Coagulation- Semi Automated</td><td>7</td></tr></tbody></table><div id="bytype_processing" class="dataTables_processing" style="display: none;">Processing...</div></div></div><div class="row"><div class="col-sm-6"><div class="dataTables_info" id="bytype_info" role="status" aria-live="polite">Showing 1 to 10 of 236 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_simple_numbers" id="bytype_paginate"><ul class="pagination"><li class="paginate_button previous disabled" aria-controls="bytype" tabindex="0" id="bytype_previous"><a href="#">Previous</a></li><li class="paginate_button active" aria-controls="bytype" tabindex="0"><a href="#">1</a></li><li class="paginate_button " aria-controls="bytype" tabindex="0"><a href="#">2</a></li><li class="paginate_button " aria-controls="bytype" tabindex="0"><a href="#">3</a></li><li class="paginate_button " aria-controls="bytype" tabindex="0"><a href="#">4</a></li><li class="paginate_button " aria-controls="bytype" tabindex="0"><a href="#">5</a></li><li class="paginate_button disabled" aria-controls="bytype" tabindex="0" id="bytype_ellipsis"><a href="#">…</a></li><li class="paginate_button " aria-controls="bytype" tabindex="0"><a href="#">24</a></li><li class="paginate_button next" aria-controls="bytype" tabindex="0" id="bytype_next"><a href="#">Next</a></li></ul></div></div></div></div>
-														</div>
-
-														<div id="info2" class="tab-pane">
-															<div id="bymodel_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row"><div class="col-sm-6"><div class="dataTables_length" id="bymodel_length"><label>Show <select name="bymodel_length" aria-controls="bymodel" class="form-control input-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-6"><div id="bymodel_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="bymodel"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="bymodel" class="display table table-striped table-hover dt-responsive dataTable no-footer dtr-inline" cellspacing="0" width="100%" role="grid" aria-describedby="bymodel_info" style="width: 100%;">
-																<thead>
-																	<tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="bymodel" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Type: activate to sort column descending" style="width: 0px;">Type</th><th class="sorting" tabindex="0" aria-controls="bymodel" rowspan="1" colspan="1" aria-label="Manufacturer: activate to sort column ascending" style="width: 0px;">Manufacturer</th><th class="sorting" tabindex="0" aria-controls="bymodel" rowspan="1" colspan="1" aria-label="Model: activate to sort column ascending" style="width: 0px;">Model</th><th class="sorting" tabindex="0" aria-controls="bymodel" rowspan="1" colspan="1" aria-label="Count: activate to sort column ascending" style="width: 0px;">Count</th></tr>
-																</thead>
-															<tbody><tr role="row" class="odd"><td class="sorting_1">Ablation System- Radiofrequency</td><td>HS</td><td>Amica-GEN</td><td>1</td></tr><tr role="row" class="even"><td class="sorting_1">Acoustic Pharyngometer Rhinometer</td><td>مصانع الشرق</td><td>N.A.</td><td>1</td></tr><tr role="row" class="odd"><td class="sorting_1">Acoustic Pharyngometer Rhinometer</td><td>NihonKohden</td><td>ECG-2150</td><td>2</td></tr><tr role="row" class="even"><td class="sorting_1">Acoustic Pharyngometer Rhinometer</td><td>hadeer</td><td></td><td>1</td></tr><tr role="row" class="odd"><td class="sorting_1">Acoustic Pharyngometer Rhinometer</td><td>Conmed</td><td>CM300</td><td>1</td></tr><tr role="row" class="even"><td class="sorting_1">Acoustic Pharyngometer Rhinometer</td><td>mixer puls 3</td><td>mixer puls 3</td><td>1</td></tr><tr role="row" class="odd"><td class="sorting_1">Acoustic Pharyngometer Rhinometer</td><td>NihonKohden</td><td>CardioFaxC</td><td>1</td></tr><tr role="row" class="even"><td class="sorting_1">Acoustic Pharyngometer Rhinometer</td><td>Steris</td><td>AMSCO400series</td><td>2</td></tr><tr role="row" class="odd"><td class="sorting_1">Acoustic Pharyngometer Rhinometer</td><td>Kaixiang</td><td></td><td>1</td></tr><tr role="row" class="even"><td class="sorting_1">Acoustic Pharyngometer Rhinometer</td><td>PukangMedical	</td><td>N.A.</td><td>5</td></tr></tbody></table><div id="bymodel_processing" class="dataTables_processing" style="display: none;">Processing...</div></div></div><div class="row"><div class="col-sm-6"><div class="dataTables_info" id="bymodel_info" role="status" aria-live="polite">Showing 1 to 10 of 1,694 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_simple_numbers" id="bymodel_paginate"><ul class="pagination"><li class="paginate_button previous disabled" aria-controls="bymodel" tabindex="0" id="bymodel_previous"><a href="#">Previous</a></li><li class="paginate_button active" aria-controls="bymodel" tabindex="0"><a href="#">1</a></li><li class="paginate_button " aria-controls="bymodel" tabindex="0"><a href="#">2</a></li><li class="paginate_button " aria-controls="bymodel" tabindex="0"><a href="#">3</a></li><li class="paginate_button " aria-controls="bymodel" tabindex="0"><a href="#">4</a></li><li class="paginate_button " aria-controls="bymodel" tabindex="0"><a href="#">5</a></li><li class="paginate_button disabled" aria-controls="bymodel" tabindex="0" id="bymodel_ellipsis"><a href="#">…</a></li><li class="paginate_button " aria-controls="bymodel" tabindex="0"><a href="#">170</a></li><li class="paginate_button next" aria-controls="bymodel" tabindex="0" id="bymodel_next"><a href="#">Next</a></li></ul></div></div></div></div>
-														</div>
-														
-														<div id="provider" class="tab-pane">
-															<div id="byprovider_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row"><div class="col-sm-6"><div class="dataTables_length" id="byprovider_length"><label>Show <select name="byprovider_length" aria-controls="byprovider" class="form-control input-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-6"><div id="byprovider_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="byprovider"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="byprovider" class="display table table-striped table-hover dt-responsive dataTable no-footer dtr-inline" cellspacing="0" width="100%" role="grid" aria-describedby="byprovider_info" style="width: 100%;">
-																<thead>
-																	<tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="byprovider" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Provider: activate to sort column descending" style="width: 0px;">Provider</th><th class="sorting" tabindex="0" aria-controls="byprovider" rowspan="1" colspan="1" aria-label="Count: activate to sort column ascending" style="width: 0px;">Count</th></tr>
-																</thead>
-															<tbody><tr role="row" class="odd"><td class="sorting_1">	</td><td>2</td></tr><tr role="row" class="even"><td class="sorting_1">Roche</td><td>1</td></tr><tr role="row" class="odd"><td class="sorting_1">القاهرة</td><td>22</td></tr><tr role="row" class="even"><td class="sorting_1">النوح</td><td>3</td></tr><tr role="row" class="odd"><td class="sorting_1">جلوبال ميديكال</td><td>1</td></tr><tr role="row" class="even"><td class="sorting_1">جيسكا</td><td>1</td></tr><tr role="row" class="odd"><td class="sorting_1">طيبة</td><td>2</td></tr><tr role="row" class="even"><td class="sorting_1"></td><td>3739</td></tr></tbody></table><div id="byprovider_processing" class="dataTables_processing" style="display: none;">Processing...</div></div></div><div class="row"><div class="col-sm-6"><div class="dataTables_info" id="byprovider_info" role="status" aria-live="polite">Showing 1 to 7 of 7 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_simple_numbers" id="byprovider_paginate"><ul class="pagination"><li class="paginate_button previous disabled" aria-controls="byprovider" tabindex="0" id="byprovider_previous"><a href="#">Previous</a></li><li class="paginate_button active" aria-controls="byprovider" tabindex="0"><a href="#">1</a></li><li class="paginate_button next disabled" aria-controls="byprovider" tabindex="0" id="byprovider_next"><a href="#">Next</a></li></ul></div></div></div></div>
-														</div>
-														
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								
-								
-							</div><!-- /.col -->
-						</div><!-- /.row -->
-
-								
-						
-					</div><!-- /.page-content -->
-				</div>
-			
-
-			
-		
-
-		<!-- inline scripts related to this page -->
-		<script type="text/javascript">
-		
-		var myChart1,myChart2;
-		
-		function FormatGroupData(data) {
-            
-            var categories = [];
-            var datas = [];
-            for (var i = 0; i < data.length; i++) {
-                categories.push(data[i].name || "");
-                datas.push({ name: data[i].name, value: data[i].value || 0 });
-            }
-			
-            return { category: categories, data: datas };
-        }
-		
-		function pieOptionsStatus(GD,chtitle)
-		{
-			var option = {
-             color: ["#28B463","#FF5733","#95A5A6","#F1C40F","#d9941c"],
-				title : {
-					text: chtitle ,
-					subtext: '',
-					x:'left',
-					y:'top'
-				},
-				tooltip : {
-					trigger: 'item',
-					formatter: "{a} <br/>{b} : {c} ({d}%)"
-				},
-				legend: {
-					orient : 'vertical',
-					x : 'left',
-					data:GD.category
-				},
-				toolbox: {
-					show : true,
-					orient:'vertical',
-					feature : {
-							mark : {
-								show : false,
-								title : {
-									mark : 'mark',
-									markUndo : 'undo mark',
-									markClear : 'clear mark'
-								},
-								lineStyle : {
-									width : 2,
-									color : '#1e90ff',
-									type : 'dashed'
-								}
-							},
-							dataZoom : {
-								show : false,
-								title : {
-									dataZoom : 'data zoom',
-									dataZoomReset : 'data zoom reset'
-								}
-							},
-							dataView : {
-								show : false,
-								title : 'dataview',
-								readOnly: false,
-								lang: ['Data View', 'Close', 'Refresh']
-							},
-							magicType: {
-								show : false,
-								title : {									
-									pie: 'pie',
-									funnel: 'funnel'
-								},
-								option: {									
-									 funnel: {
-												x: '25%',
-												width: '50%',
-												funnelAlign: 'left',
-												max: 500
-											}
-								},
-								type : ['pie','funnel']
-							},
-							restore : {
-								show : true,
-								title : 'restore'
-							},
-							saveAsImage : {
-								show : false,
-								title : 'status',
-								type : 'png',
-								lang : ['click Save'] 
-							}
-						} 
-				},
-				calculable : true,
-				series : [
-					{
-						name:chtitle,
-						type:'pie',
-						radius : '55%',
-						center: ['50%', '60%'],
-						data:GD.data
-					}
-				]
-			};
-			
-			return option;
-		}
-		
-			function pieOptionsContracts(GD,chtitle)
-		{
-			var option = {
-             color: ["#28B463","#FF5733","#F1C40F","#95A5A"],
-				title : {
-					text: chtitle ,
-					subtext: '',
-					x:'left',
-					y:'top'
-				},
-				tooltip : {
-					trigger: 'item',
-					formatter: "{a} <br/>{b} : {c} ({d}%)"
-				},
-				legend: {
-					orient : 'vertical',
-					x : 'left',
-					data:GD.category
-				},
-				toolbox: {
-					show : true,
-					orient:'vertical',
-					feature : {
-							mark : {
-								show : false,
-								title : {
-									mark : 'mark',
-									markUndo : 'undo mark',
-									markClear : 'clear mark'
-								},
-								lineStyle : {
-									width : 2,
-									color : '#1e90ff',
-									type : 'dashed'
-								}
-							},
-							dataZoom : {
-								show : false,
-								title : {
-									dataZoom : 'data zoom',
-									dataZoomReset : 'data zoom reset'
-								}
-							},
-							dataView : {
-								show : false,
-								title : 'dataview',
-								readOnly: false,
-								lang: ['Data View', 'Close', 'Refresh']
-							},
-							magicType: {
-								show : false,
-								title : {									
-									pie: 'pie',
-									funnel: 'funnel'
-								},
-								option: {									
-									 funnel: {
-												x: '25%',
-												width: '50%',
-												funnelAlign: 'left',
-												max: 500
-											}
-								},
-								type : ['pie','funnel']
-							},
-							restore : {
-								show : true,
-								title : 'restore'
-							},
-							saveAsImage : {
-								show : false,
-								title : 'status',
-								type : 'png',
-								lang : ['click Save'] 
-							}
-						} 
-				},
-				calculable : true,
-				series : [
-					{
-						name:chtitle,
-						type:'pie',
-						radius : '55%',
-						center: ['50%', '60%'],
-						data:GD.data
-					}
-				]
-			};
-			
-			return option;
-		}
+<?php include_once ('../Connections/conn.php');
+
+$currentPage = $_SERVER["PHP_SELF"];
+
+$maxRows_rs_contract = 6;
+$pageNum_rs_contract = 0;
+if (isset($_GET['pageNum_rs_contract'])) {
+  $pageNum_rs_contract = $_GET['pageNum_rs_contract'];
+}
+$startRow_rs_contract = $pageNum_rs_contract * $maxRows_rs_contract;
+
+mysqli_select_db($conn, $database_conn);
+$query_rs_contract = "SELECT * FROM contract ORDER BY id ASC";
+$query_limit_rs_contract = sprintf("%s LIMIT %d, %d", $query_rs_contract, $startRow_rs_contract, $maxRows_rs_contract);
+$rs_contract = mysqli_query($conn, $query_limit_rs_contract) or die(mysqli_connect_error());
+$row_rs_contract = mysqli_fetch_assoc($rs_contract);
+
+if (isset($_GET['totalRows_rs_contract'])) {
+  $totalRows_rs_contract = $_GET['totalRows_rs_contract'];
+} else {
+  $all_rs_contract = mysqli_query($conn, $query_rs_contract);
+  $totalRows_rs_contract = mysqli_num_rows($all_rs_contract);
+}
+$totalPages_rs_contract = ceil($totalRows_rs_contract/$maxRows_rs_contract)-1;
+
+$queryString_rs_contract = "";
+if (!empty($_SERVER['QUERY_STRING'])) {
+  $params = explode("&", $_SERVER['QUERY_STRING']);
+  $newParams = array();
+  foreach ($params as $param) {
+    if (stristr($param, "pageNum_rs_contract") == false && 
+        stristr($param, "totalRows_rs_contract") == false) {
+      array_push($newParams, $param);
+    }
+  }
+  if (count($newParams) != 0) {
+    $queryString_rs_contract = "&" . htmlentities(implode("&", $newParams));
+  }
+}
+$queryString_rs_contract = sprintf("&totalRows_rs_contract=%d%s", $totalRows_rs_contract, $queryString_rs_contract);
+
+/*////////////////*/
+$currentPage = $_SERVER["PHP_SELF"];
+
+$maxRows_rs_hcontacts = 6;
+$pageNum_rs_hcontacts = 0;
+if (isset($_GET['pageNum_rs_hcontacts'])) {
+  $pageNum_rs_hcontacts = $_GET['pageNum_rs_hcontacts'];
+}
+$startRow_rs_hcontacts = $pageNum_rs_hcontacts * $maxRows_rs_hcontacts;
+
+mysqli_select_db($conn, $database_conn);
+$query_rs_hcontacts = "SELECT * FROM hcontacts ORDER BY id ASC";
+$query_limit_rs_hcontacts = sprintf("%s LIMIT %d, %d", $query_rs_hcontacts, $startRow_rs_hcontacts, $maxRows_rs_hcontacts);
+$rs_hcontacts = mysqli_query($conn, $query_limit_rs_hcontacts) or die(mysqli_connect_error());
+$row_rs_hcontacts = mysqli_fetch_assoc($rs_hcontacts);
+
+if (isset($_GET['totalRows_rs_hcontacts'])) {
+  $totalRows_rs_hcontacts = $_GET['totalRows_rs_hcontacts'];
+} else {
+  $all_rs_hcontacts = mysqli_query($conn, $query_rs_hcontacts);
+  $totalRows_rs_hcontacts = mysqli_num_rows($all_rs_hcontacts);
+}
+$totalPages_rs_hcontacts = ceil($totalRows_rs_hcontacts/$maxRows_rs_hcontacts)-1;
+
+$queryString_rs_hcontacts = "";
+if (!empty($_SERVER['QUERY_STRING'])) {
+  $params = explode("&", $_SERVER['QUERY_STRING']);
+  $newParams = array();
+  foreach ($params as $param) {
+    if (stristr($param, "pageNum_rs_hcontacts") == false && 
+        stristr($param, "totalRows_rs_hcontacts") == false) {
+      array_push($newParams, $param);
+    }
+  }
+  if (count($newParams) != 0) {
+    $queryString_rs_hcontacts = "&" . htmlentities(implode("&", $newParams));
+  }
+}
+$queryString_rs_hcontacts = sprintf("&totalRows_rs_hcontacts=%d%s", $totalRows_rs_hcontacts, $queryString_rs_hcontacts);
+
+/*////////*/
+
+$currentPage = $_SERVER["PHP_SELF"];
+
+$maxRows_rs_hdepartment = 6;
+$pageNum_rs_hdepartment = 0;
+if (isset($_GET['pageNum_rs_hdepartment'])) {
+  $pageNum_rs_hdepartment = $_GET['pageNum_rs_hdepartment'];
+}
+$startRow_rs_hdepartment = $pageNum_rs_hdepartment * $maxRows_rs_hdepartment;
+
+mysqli_select_db($conn, $database_conn);
+$query_rs_hdepartment = "SELECT * FROM hdepartment ORDER BY id ASC";
+$query_limit_rs_hdepartment = sprintf("%s LIMIT %d, %d", $query_rs_hdepartment, $startRow_rs_hdepartment, $maxRows_rs_hdepartment);
+$rs_hdepartment = mysqli_query($conn, $query_limit_rs_hdepartment) or die(mysqli_connect_error());
+$row_rs_hdepartment = mysqli_fetch_assoc($rs_hdepartment);
+
+if (isset($_GET['totalRows_rs_hdepartment'])) {
+  $totalRows_rs_hdepartment = $_GET['totalRows_rs_hdepartment'];
+} else {
+  $all_rs_hdepartment = mysqli_query($conn, $query_rs_hdepartment);
+  $totalRows_rs_hdepartment = mysqli_num_rows($all_rs_hdepartment);
+}
+$totalPages_rs_hdepartment = ceil($totalRows_rs_hdepartment/$maxRows_rs_hdepartment)-1;
+
+$queryString_rs_hdepartment = "";
+if (!empty($_SERVER['QUERY_STRING'])) {
+  $params = explode("&", $_SERVER['QUERY_STRING']);
+  $newParams = array();
+  foreach ($params as $param) {
+    if (stristr($param, "pageNum_rs_hdepartment") == false && 
+        stristr($param, "totalRows_rs_hdepartment") == false) {
+      array_push($newParams, $param);
+    }
+  }
+  if (count($newParams) != 0) {
+    $queryString_rs_hdepartment = "&" . htmlentities(implode("&", $newParams));
+  }
+}
+$queryString_rs_hdepartment = sprintf("&totalRows_rs_hdepartment=%d%s", $totalRows_rs_hdepartment, $queryString_rs_hdepartment);
+?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../assets/img/logo-fav.png">
+    <title>Company | Admin</title>
+	  <!-- bootstrap & fontawesome -->
+    <link rel="stylesheet" href="../assetss/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assetss/font-awesome/4.6.3/css/font-awesome.min.css"> 
+
+    <!-- page specific plugin styles -->
+    <link rel="stylesheet" href="../assetss/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../assetss/css/ui.jqgrid.min.css">
+    <link rel="stylesheet" type="text/css" href="../assetss/css/dataTables.bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../assetss/css/dataTables.responsive.css">
+    <link rel="stylesheet" type="text/css" href="../assetss/css/bootstrap-multiselect.min.css">
+    <link rel="stylesheet" type="text/css" href="../assetss/css/jquery.jspanel.min.css">
+    <link rel="stylesheet" href="../assetss/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="../assetss/css/query-builder.default.min.css">
+
+    <!-- text fonts -->
+    <link rel="stylesheet" href="../assetss/fonts/fonts.googleapis.com.css">
+
+    <!-- ace styles -->
+    <link rel="stylesheet" href="../assetss/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style">
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="assetss/css/ace-part2.min.css" class="ace-main-stylesheet" />
+    <![endif]-->
+
+    <!--[if lte IE 9]>
+      <link rel="stylesheet" href="assetss/css/ace-ie.min.css" />
+    <![endif]-->
+
+    <!-- inline styles related to this page -->
+
+    <!-- ace settings handler -->
+    <script src="../assetss/js/ace-extra.min.js"></script>
+
+    <!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+    <!--[if lte IE 8]>
+    <script src="assetss/js/html5shiv.min.js"></script>
+    <script src="assetss/js/respond.min.js"></script>
+    <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" href="../assetss/css/custom.css">
+         <style>
+      @font-face {
+         font-family: consolaFont;
+         src: url(../assetss/fonts/consola.ttf);
+       }
+     </style>
+	  
+    <!--<link rel="stylesheet" type="text/css" href="assets/lib/perfect-scrollbar/css/perfect-scrollbar.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/lib/material-design-icons/css/material-design-iconic-font.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/lib/jquery.vectormap/jquery-jvectormap-1.2.2.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/lib/jqvmap/jqvmap.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>-->
+	  <script type="text/javascript">
+function confirmDeletion() {
+    return confirm('Are you sure you want to delete?');
+}
+</script>
+  </head>
+	 <body class="no-skin" data-new-gr-c-s-check-loaded="14.1176.0" data-gr-ext-installed="">
+    <div id="navbar" class="navbar navbar-default">
+        <script type="text/javascript">
+            try{ace.settings.check('navbar' , 'fixed')}catch(e){}
+        </script>
+
+        <div class="navbar-container" id="navbar-container">
+            <button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
+                <span class="sr-only">Toggle sidebar</span>
+
+                <span class="icon-bar"></span>
+
+                <span class="icon-bar"></span>
+
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="navbar-header pull-left">
+                <a href="index.php" class="navbar-brand">
+                    <small>
                     
-		function loadCharts( hospitalNames)
-		{
-		
-			$.post( "equipment/status.php",{hospital:hospitalNames}, function( data ) {
-				  
-				  if(data.length>0){				  
-					var groupData=FormatGroupData(data);
+                          <i class="fa fa-stethoscope"></i> 
+                    
+                  <!-- <i     <i class="fa fa-connectdevelop"></i>  -->
+                    
+                        Medical Equipment Management System
+                    </small>
+                </a>
+            </div>
 			
-					if (myChart1 && myChart1.clear) 
-							  myChart1.clear();							  
-									
-					myChart1 = echarts.init(document.getElementById('mainechart1'));					
-					
-					var op=pieOptionsStatus(groupData);
-					myChart1.setOption(op,'Equipment Status');					
-					
-					$(window).on('resize', function(){			
-						myChart1.resize();					
-					
-					});
-				  }else{
-						if (myChart1 && myChart1.clear) 
-							  myChart1.clear();	
-				  }
-				}, "json");
-				
-				$.post( "equipment/contracttype.php",{hospital:hospitalNames}, function( data ) {
-				  if(data.length>0){
-					var groupData=FormatGroupData(data);			
-							  
-					if (myChart2 && myChart2.clear) 
-							  myChart2.clear();					
-					
-					myChart2 = echarts.init(document.getElementById('mainechart2'));
-					
-					var op=pieOptionsContracts(groupData);					
-					myChart2.setOption(op,'Contract Type');
-					
-					$(window).on('resize', function(){			
-						
-						myChart2.resize();
-					
-					});
-				  }else{
-						if (myChart2 && myChart2.clear) 
-							  myChart2.clear();	
-				  }
-				}, "json");
-		
-		}		
-			
-		
-			jQuery(function($) {
-			
-			
-				$('#hospital').multiselect({
-					enableFiltering: true,
-					enableCaseInsensitiveFiltering: true,
-					includeSelectAllOption: true,
-					maxHeight: 200,
-					buttonClass: 'btn  btn-primary',
-					 templates: {
-						ul: '<ul class="multiselect-container dropdown-menu"></ul>',
-						filter: '<li class="multiselect-item filter"><div class="input-group"><span class="input-group-addon"><i class="fa fa-search"></i></span><input class="form-control multiselect-search" type="text"></div></li>',
-						filterClearBtn: '<span class="input-group-btn"><button class="btn btn-default btn-white btn-grey multiselect-clear-filter" type="button"><i class="fa fa-times-circle red2"></i></button></span>'
-					 },
-					onChange: function(option, checked, select) {
-						
-						(new $.fn.dataTable.Api( '#byman' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#bytype' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#bymodel' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#byprovider' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#dtwarranty' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#dtwarrantyless90' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#dtcontracts' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#dtcontractsless90' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#dtnocontractorwarranty' )).ajax.reload();
-						loadCharts( $('#hospital').val()|| []);
-						
-						$("#equipmentTotal").load("equipment/total.php",{hospital:$('#hospital').val()|| []});
-						
-					}
-				});		
-									
-				$.post( "equipment/hospital.php",{}, function( data ) {		
-							
-					  
-						$('#hospital').multiselect('dataprovider', data);
-						(new $.fn.dataTable.Api( '#byman' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#bytype' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#bymodel' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#byprovider' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#dtwarranty' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#dtwarrantyless90' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#dtcontracts' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#dtcontractsless90' )).ajax.reload();
-						(new $.fn.dataTable.Api( '#dtnocontractorwarranty' )).ajax.reload();
-						loadCharts( $('#hospital').val()|| []);
-						
-						$("#equipmentTotal").load("equipment/total.php",{hospital:$('#hospital').val()|| []});
-					  
-					}, "json");
-			
-				
-				
-				
-			
-				$('#byman').dataTable( {
-				"responsive": true,
-				"columnDefs": [ {
-					  "targets": 1,
-					  "searchable": false
-					} ],
-				"processing": true,
-				"serverSide": true,	
-				"ajax": {
-							"url":"datatables/byman.php",
-							"data":function ( d ) {
-									d.hospital = $('#hospital').val() || [];									
-								}
-						
-						}
-				} );
-				
-				$('#bytype').dataTable( {
-				"responsive": true,
-				"columnDefs": [ {
-					  "targets": 1,
-					  "searchable": false
-					} ],
-				"processing": true,
-				"serverSide": true,	
-				"ajax": {
-							"url":"datatables/bytype.php",
-							"data":function ( d ) {
-									d.hospital = $('#hospital').val()|| [];									
-								}
-						
-						}
-				} );
-				
-				$('#bymodel').dataTable( {
-				"responsive": true,
-				"columnDefs": [ {
-					  "targets": 3,
-					  "searchable": false
-					} ],
-				"processing": true,
-				"serverSide": true,
-				"ajax": {
-							"url":"datatables/bymodel.php",
-							"data":function ( d ) {
-									d.hospital = $('#hospital').val()|| [];									
-								}
-						
-						}
-				} );
-				
-				$('#byprovider').dataTable( {
-				"responsive": true,
-				"columnDefs": [ {
-					  "targets": 1,
-					  "searchable": false
-					} ],
-				"processing": true,
-				"serverSide": true,	
-				"ajax": {
-							"url":"datatables/byprovider.php",
-							"data":function ( d ) {
-									d.hospital = $('#hospital').val() || [];									
-								}
-						
-						}
-				} );
-				
-				$('#dtwarranty').dataTable( {
-				"responsive": true,
-				"processing": true,
-				"serverSide": true,		
-				"ajax": {
-							"url":"datatables/warranty.php",
-							"data":function ( d ) {
-									d.hospital = $('#hospital').val()|| [];									
-								}
-						
-						}
-				} );
-				
-				$('#dtwarrantyless90').dataTable( {
-				"responsive": true,
-				"processing": true,
-				"serverSide": true,		
-				"ajax": {
-							"url":"datatables/warrantyless90.php",
-							"data":function ( d ) {
-									d.hospital = $('#hospital').val()|| [];									
-								}
-						
-						}
-				} );
-				
-				$('#dtcontracts').dataTable( {
-				"responsive": true,
-				"processing": true,
-				"serverSide": true,		
-				"ajax": {
-							"url":"datatables/contracts.php",
-							"data":function ( d ) {
-									d.hospital = $('#hospital').val()|| [];									
-								}
-						
-						}
-				} );
-				
-				$('#dtcontractsless90').dataTable( {
-				"responsive": true,
-				"processing": true,
-				"serverSide": true,		
-				"ajax": {
-							"url":"datatables/contractsless90.php",
-							"data":function ( d ) {
-									d.hospital = $('#hospital').val()|| [];									
-								}
-						
-						}
-				} );
-				
-				$('#dtnocontractorwarranty').dataTable( {
-				"responsive": true,
-				"processing": true,
-				"serverSide": true,		
-				"ajax": {
-							"url":"datatables/nocontractorwarranty.php",
-							"data":function ( d ) {
-									d.hospital = $('#hospital').val()|| [];									
-								}
-						
-						}
-				} );
-				
-				//solution for tables in the inactive tabs
-				$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-					$('.dt-responsive:visible').each( function(e) {
-					  //alert('visible ' + $(this).attr('id'));
-					  $(this).DataTable().columns.adjust().responsive.recalc();
-					});
-				  });		  
-				  			  
-				  
-				
-			})
-		</script>
-	    </div><!-- /.main-content -->
+            <div style="min-width: 345px" class="navbar-buttons navbar-header pull-right" role="navigation">
+				<div style="float:left;" class="navbar-header navbar-brand"><h6><?php echo gmdate("D, d / M / Y"); ?>&nbsp;&nbsp;&nbsp;&nbsp;</h6></div>
+                <ul class="nav ace-nav" style="">
+                    <li class="light-blue">
+                        <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                            <img class="nav-user-photo" src="../assetss/avatars/avatar2.png" alt="Jason's Photo">
+                            <span class="user-info"><small>Welcome,</small> eng mohsen minia</span>
+                            <i class="ace-icon fa fa-caret-down"></i>
+                        </a>
+                        <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+                            <li class="divider"></li>
+                      		<li><a href="../logout.php"><i class="ace-icon fa fa-power-off"></i>Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div><!-- /.navbar-container -->
+    </div>
 
-			<div class="footer">
-				<div class="footer-inner">
-					<div class="footer-content">
-						<span class="bigger-120">
-							<span class="blue bolder">All Rights Reserved</span>
-							 © 2024						</span>
+    <div class="main-container" id="main-container">
+        <script type="text/javascript">
+            try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+        </script>
 
-						&nbsp; &nbsp;
-						
-					</div>
-				</div>
-			</div>
+        <div id="sidebar" class="sidebar responsive" data-sidebar="true" data-sidebar-scroll="true" data-sidebar-hover="true">
+            <script type="text/javascript">
+                try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
+            </script>
 
-			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
-				<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
-			</a>
-		</div>
+            <ul class="nav nav-list" style="top: 0px;">
+
+                        <li class="active">
+                    <a href="../index.php" id="mnuDashboard">
+                        <i class="menu-icon fa fa-tachometer"></i>
+                        <span class="menu-text"> Dashboard </span>
+                    </a>
+                    <b class="arrow"></b>
+                </li>
+                <li>
+                    <a href="#" id="mnuSurvey">
+                        <i class="menu-icon fa fa-list"></i>
+                        <span class="menu-text"> Survey </span>
+                    </a>
+                    <b class="arrow"></b>
+                </li>    
+         		   <li>
+                    <a href="#" id="mnuESU">
+                        <i class="menu-icon fa fa-refresh"></i>
+                        <span class="menu-text"> ESU </span>
+                    </a>
+                    <b class="arrow"></b>
+                </li>
+          		  <li>
+                    <a href="#" id="mnustatus">
+                        <i class="menu-icon fa fa-cubes "></i>
+                        <span class="menu-text"> report_status </span>
+                    </a>
+                    <b class="arrow"></b>
+                </li>
+                     <li class="">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="menu-icon fa fa-pencil-square-o"></i>
+                        <span class="menu-text"> Editing </span>
+                        <b class="arrow fa fa-angle-down"></b>
+                    </a>
+                    <b class="arrow"></b>
+                    <ul class="submenu">
+                         <li class="">
+                            <a href="../hospital/main.php" id="mnuEditHospital">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Hospital
+                            </a>
+                            <b class="arrow"></b>
+                        </li>
+                                                    
+                                <li class="">
+                            <a href="../equipment/main.php" id="mnuEditEquipment">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Equipment
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+                                                    
+                                                    <li class="">
+                            <a href="main.php" id="mnuEditContract">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Contract
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+                                                    
+                                                    <li class="">
+                            <a href="#" id="mnuEditCompany">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Company
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+                                                    
+                                                    
+                                                    
+                              <li class="">
+                            <a href="#" id="mnuEditEquipmentName">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Equipment Name
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+                                                    
+                                                    <li class="">
+                            <a href="#" id="mnuEditDepartmentType">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Department Type
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+                                                    
+                                                    <li class="">
+                            <a href="#" id="mnuEditProject">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Project
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+                       
+                              <li class="">
+                            <a href="#" id="mnuReportSurvey">
+                                <i class="menu-icon fa fa-caret-right"></i>
+                                Reports
+                            </a>
+
+                            <b class="arrow"></b>
+                        </li>
+               
+                    </ul>
+                </li>
+                
+                
+            </ul><!-- /.nav-list -->
+
+            <div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+                <i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+            </div>
+
+            <script type="text/javascript">
+                try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+            </script>
+        </div>
+		<!-- /.main-content -->
+		
+		<div id="main-content" class="main-content">				<div class="main-content-inner">
+                <div class="breadcrumbs" id="breadcrumbs">
+                    <script type="text/javascript">
+                        try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+                    </script>
+
+                    <ul class="breadcrumb">
+                        <li>
+                            <i class="ace-icon fa fa-home home-icon"></i>
+                            <a href="#">Home</a>
+                        </li>
+                        <li><a href="#">Edit</a></li>
+                        <li class="active">Contracts</li>
+                    </ul><!-- /.breadcrumb -->
+                    
+                </div>
+
+                <div class="page-content">
+                    
+
+                    <div class="page-header">
+                        <h1>
+                            Contracts
+                            <small>
+                                <i class="ace-icon fa fa-angle-double-right"></i>
+                                Contracts List
+                            </small>
+                        </h1>
+                    </div><!-- /.page-header -->
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <!-- PAGE CONTENT BEGINS -->
+                            
+                                                        
+<div class="ui-widget ui-widget-content ui-corner-all ui-jqgrid" id="gbox_contract" dir="ltr" style="width: 100%;">
+	<div class="ui-widget-overlay jqgrid-overlay" id="lui_contract"></div>
+	<div class="ui-state-default ui-state-active loading" id="load_contract" style="display: none;">Loading...</div>
+	<div class="ui-jqgrid-view" role="grid" aria-multiselectable="false" id="gview_contract" style="width: 100%;">
+		<div class="ui-widget-header ui-corner-top ui-jqgrid-titlebar ui-jqgrid-caption"><span class="ui-jqgrid-title">contract</span><a role="link" class="ui-corner-all ui-jqgrid-titlebar-close" title="Toggle Expand Collapse Grid"><span class="ui-icon ui-icon-circle-triangle-n"></span></a></div>
+		<div class="ui-state-default ui-corner-top ui-jqgrid-hdiv" style="width: 100%;">
+			<div style="display:flex;width: 25%" class="input-group mb-3" >
+                              <input id="myInput" onkeyup="contractSearch()" type="text" name="search" required value="" class="form-control" placeholder="Search data">
+                       </div>
+			<div class="ui-jqgrid-hbox" style="padding-right: 26px;">
+				<table class="ui-jqgrid-htable" style="width:1px" role="presentation" aria-labelledby="gbox_contract">
+					<thead><tr class="ui-jqgrid-labels" role="row">
+						<th id="hcontacts_rn" class="ui-state-default ui-th-column ui-th-ltr jqgh_rn" style="width: 60px;">
+								   <div id="jqgh_hcontacts_rn" class="ui-jqgrid-sortable">Action<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+							   <th id="hcontacts_rn" class="ui-state-default ui-th-column ui-th-ltr jqgh_rn" style="width: 30px;">
+								   <div id="jqgh_hcontacts_rn" class="ui-jqgrid-sortable">Id<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="contract_company" class="ui-state-default ui-th-column ui-th-ltr" style="width: 119px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_contract_company" class="ui-jqgrid-sortable">Company<span class="s-ico" style=""><span class="ui-grid-ico-sort ui-icon-asc ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="contract_price" class="ui-state-default ui-th-column ui-th-ltr" style="width: 119px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_contract_price" class="ui-jqgrid-sortable">Price<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="contract_currentprice" class="ui-state-default ui-th-column ui-th-ltr" style="width: 119px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_contract_currentprice" class="ui-jqgrid-sortable">Current Price<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="contract_type" class="ui-state-default ui-th-column ui-th-ltr" style="width: 119px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_contract_type" class="ui-jqgrid-sortable">Type<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="contract_visits" class="ui-state-default ui-th-column ui-th-ltr" style="width: 95px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_contract_visits" class="ui-jqgrid-sortable">Regular Visits #<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="contract_emergencyvisits" class="ui-state-default ui-th-column ui-th-ltr" style="width: 119px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_contract_emergencyvisits" class="ui-jqgrid-sortable">Emergency Visits #<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="contract_emergencyresponsetime" class="ui-state-default ui-th-column ui-th-ltr" style="width: 119px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_contract_emergencyresponsetime" class="ui-jqgrid-sortable">Emergency Response Time<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="contract_latepenalty" class="ui-state-default ui-th-column ui-th-ltr" style="width: 119px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_contract_latepenalty" class="ui-jqgrid-sortable">Late Penalty<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="contract_startdate" class="ui-state-default ui-th-column ui-th-ltr" style="width: 95px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_contract_startdate" class="ui-jqgrid-sortable">Start Date<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="contract_enddate" class="ui-state-default ui-th-column ui-th-ltr" style="width: 119px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_contract_enddate" class="ui-jqgrid-sortable">End Date<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="contract_filename" class="ui-state-default ui-th-column ui-th-ltr" style="width: 40px; display: none;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_contract_filename" class="ui-jqgrid-sortable">Contract File<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="contract_filepath" class="ui-state-default ui-th-column ui-th-ltr" style="width: 95px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_contract_filepath" class="ui-jqgrid-sortable">File<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th></tr>
+						</thead></table></div></div>
+		<div class="ui-state-error ui-jqgrid-errorbar ui-jqgrid-errorbar-ltr" style="display:none;"><span class="ui-jqgrid-error"></span></div>
+		<div class="ui-jqgrid-bdiv" style="height: 200px; width: 100%;">
+			<div style="position:relative;">
+				<table id="contract" tabindex="0" role="presentation" aria-labelledby="gbox_contract" class="ui-jqgrid-btable" style="width: 1px;">
+					<tbody>
+						<?php do { ?>
+						<tr class="jqgfirstrow" role="row" style="height:auto">
+						<td style="text-align:center;width: 60px;" class="actions"><a href="edit.php?id=<?php echo $row_rs_contract['id']; ?>" class="icon"><i class="ui-icon ace-icon fa fa-pencil blue"></i></a> - <a href="delete.php?id=<?php echo $row_rs_contract['id']; ?>" class="icon" onclick="return confirmDeletion();"><i class="ui-icon ace-icon fa fa-trash-o red"></i></a></td>
+						<td role="gridcell" style="height:0;width:30px;"><?php echo $row_rs_contract['id'] ; ?></td>
+						<td role="gridcell" style="height:0;width:119px;"><?php echo $row_rs_contract['company'] ; ?></td>
+						<td role="gridcell" style="height:0;width:119px;"><?php echo $row_rs_contract['price'] ; ?></td>
+						<td role="gridcell" style="height:0;width:119px;"><?php echo $row_rs_contract['cprice'] ; ?></td>
+						<td role="gridcell" style="height:0;width:119px;"><?php echo $row_rs_contract['type'] ; ?></td>
+						<td role="gridcell" style="height:0;width:95px;"><?php echo $row_rs_contract['visits'] ; ?></td>
+						<td role="gridcell" style="height:0;width:119px;"><?php echo $row_rs_contract['evisits'] ; ?></td>
+						<td role="gridcell" style="height:0;width:119px;"><?php echo $row_rs_contract['emergencyrt'] ; ?></td>
+						<td role="gridcell" style="height:0;width:119px;"><?php echo $row_rs_contract['latepenalty'] ; ?></td>
+						<td role="gridcell" style="height:0;width:95px;"><?php echo $row_rs_contract['startdate'] ; ?></td>
+						<td role="gridcell" style="height:0;width:119px;"><?php echo $row_rs_contract['enddate'] ; ?></td>
+						<td role="gridcell" style="height:0;width:95px;"><a href="../<?php echo $row_rs_contract['file']; ?>" target="_blank" title="View"><span>View</span></a></td>
+						</tr>
+						<?php } while ($row_rs_contract = mysqli_fetch_assoc($rs_contract)); ?>
+						</tbody></table></div></div></div>
+	<div class="ui-widget-header ui-jqgrid-resize-mark" id="rs_mcontract">&nbsp;</div>
+	<div id="pagercontract" class="ui-state-default ui-jqgrid-pager ui-corner-bottom" dir="ltr" style="width: 100%;">
+		<div id="pg_pagercontract" class="ui-pager-control" role="group">
+			<table class="ui-pg-table" style="width:100%;table-layout:fixed;height:100%;">
+				<tbody><tr>
+					<td id="pagercontract_left" style="text-align:left;"><div class="ui-pg-table navtable" role="toolbar" style="float:left;table-layout:auto;">
+				 	 <a href="form.php" role="button" class="ui-pg-button ui-corner-all" title="Add">
+						<div class="ui-pg-div"><span class="ui-icon ace-icon fa fa-plus-circle purple"></span></div></a>
+				 </div></td>
+					<td id="pagerhospital_center" style="text-align: center; white-space: pre; width: 332px;display: flex;">
+		<table style="table-layout:auto;white-space: pre;margin-left:auto;margin-right:auto;" class="ui-pg-table">
+			<tbody>
+				<tr><a aria-label="Previous" href="<?php printf("%s?pageNum_rs_contract=%d%s", $currentPage, max(0, $pageNum_rs_contract - 1), $queryString_rs_contract); ?>"><span class="ui-icon ace-icon fa fa-angle-left bigger-140"></span>  Previous</a>
+					&nbsp;
+        <a aria-label="Next" href="<?php printf("%s?pageNum_rs_contract=%d%s", $currentPage, $totalPages_rs_contract, $queryString_rs_contract); ?>">Next   <span class="ui-icon ace-icon fa fa-angle-right bigger-140"></span> </a>
+   
+					</tr></tbody></table></td>
+					</tr></tbody></table></div></div></div>
+                            
+                            
+                            <br><br>
+                            
+                            <ul class="nav nav-tabs" id="myTab1">
+                                <li class="active">
+                                    <a data-toggle="tab" href="#equipment" aria-expanded="true">Equipment</a>
+                                </li>
+
+                                <li class="">
+                                    <a data-toggle="tab" href="#evaluation" aria-expanded="false">Evaluation</a>
+                                </li>
+                                
+                            </ul>
+                            
+                            <div class="tab-content padding-4">
+                                <div id="equipment" class="tab-pane active">
+                                    
+<div class="ui-widget ui-widget-content ui-corner-all ui-jqgrid" id="gbox_cequipment" dir="ltr" style="width: 1276px;">
+	<div class="ui-widget-overlay jqgrid-overlay" id="lui_cequipment"></div>
+	<div class="ui-state-default ui-state-active loading" id="load_cequipment" style="display: none;">Loading...</div>
+	<div class="ui-jqgrid-view" role="grid" aria-multiselectable="false" id="gview_cequipment" style="width: 1276px;">
+		<div class="ui-widget-header ui-corner-top ui-jqgrid-titlebar ui-jqgrid-caption">
+			<span class="ui-jqgrid-title">Contacts</span><a role="link" class="ui-corner-all ui-jqgrid-titlebar-close" title="Toggle Expand Collapse Grid"><span class="ui-icon ui-icon-circle-triangle-n"></span></a></div>
+		<div class="ui-state-default ui-corner-top ui-jqgrid-hdiv" style="width: 1276px;">
+			<div class="ui-jqgrid-hbox" style="padding-right: 0px;">
+				<table class="ui-jqgrid-htable" style="width:1px" role="presentation" aria-labelledby="gbox_cequipment">
+					<thead><tr class="ui-jqgrid-labels" role="row">
+						<th id="cequipment_rn" class="ui-state-default ui-th-column ui-th-ltr jqgh_rn" style="width: 30px;"><div id="jqgh_cequipment_rn"><span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="cequipment_hospital" class="ui-state-default ui-th-column ui-th-ltr" style="width: 205px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_cequipment_hospital" class="ui-jqgrid-sortable">Hospital<span class="s-ico" style=""><span class="ui-grid-ico-sort ui-icon-asc ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="cequipment_department" class="ui-state-default ui-th-column ui-th-ltr" style="width: 205px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_cequipment_department" class="ui-jqgrid-sortable">Department<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="cequipment_type" class="ui-state-default ui-th-column ui-th-ltr" style="width: 205px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_cequipment_type" class="ui-jqgrid-sortable">Type<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="cequipment_manufacturer" class="ui-state-default ui-th-column ui-th-ltr" style="width: 205px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_cequipment_manufacturer" class="ui-jqgrid-sortable">Manufacturer<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="cequipment_model" class="ui-state-default ui-th-column ui-th-ltr" style="width: 205px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_cequipment_model" class="ui-jqgrid-sortable">Model<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="cequipment_serial" class="ui-state-default ui-th-column ui-th-ltr" style="width: 203px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_cequipment_serial" class="ui-jqgrid-sortable">Serial<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th></tr>
+						</thead></table></div></div>
+		<div class="ui-state-error ui-jqgrid-errorbar ui-jqgrid-errorbar-ltr" style="display:none;">
+			<span class="ui-jqgrid-error"></span></div>
+		<div class="ui-jqgrid-bdiv" style="height: 200px; width: 1276px;">
+			<div style="position:relative;">
+				<table id="cequipment" tabindex="0" role="presentation" aria-labelledby="gbox_cequipment" class="ui-jqgrid-btable" style="width: 1px;">
+					<tbody><tr class="jqgfirstrow" role="row" style="height:auto">
+						<td role="gridcell" style="height:0;width:30px;"></td>
+						<td role="gridcell" style="height:0;width:205px;"></td>
+						<td role="gridcell" style="height:0;width:205px;"></td>
+						<td role="gridcell" style="height:0;width:205px;"></td>
+						<td role="gridcell" style="height:0;width:205px;"></td>
+						<td role="gridcell" style="height:0;width:205px;"></td>
+						<td role="gridcell" style="height:0;width:203px;"></td>
+						</tr>
+					</tbody></table></div></div></div>
+	<div class="ui-widget-header ui-jqgrid-resize-mark" id="rs_mcequipment">&nbsp;</div>
+	<div id="pagercequipment" class="ui-state-default ui-jqgrid-pager ui-corner-bottom" dir="ltr" style="width: 1276px;">
+		<div id="pg_pagercequipment" class="ui-pager-control" role="group">
+			<table class="ui-pg-table" style="width:100%;table-layout:fixed;height:100%;">
+				<tbody><tr>
+					<td id="pagercontract_left" style="text-align:left;"><div class="ui-pg-table navtable" role="toolbar" style="float:left;table-layout:auto;">
+				 	 <a href="form.php" role="button" class="ui-pg-button ui-corner-all" title="Add">
+						<div class="ui-pg-div"><span class="ui-icon ace-icon fa fa-plus-circle purple"></span></div></a>
+				 </div></td>
+					<td id="pagerhospital_center" style="text-align: center; white-space: pre; width: 332px;display: flex;">
+		<table style="table-layout:auto;white-space: pre;margin-left:auto;margin-right:auto;" class="ui-pg-table">
+			<tbody>
+				<tr><a aria-label="Previous" href="<?php printf("%s?pageNum_rs_contract=%d%s", $currentPage, max(0, $pageNum_rs_contract - 1), $queryString_rs_contract); ?>"><span class="ui-icon ace-icon fa fa-angle-left bigger-140"></span>  Previous</a>
+					&nbsp;
+        <a aria-label="Next" href="<?php printf("%s?pageNum_rs_contract=%d%s", $currentPage, $totalPages_rs_contract, $queryString_rs_contract); ?>">Next   <span class="ui-icon ace-icon fa fa-angle-right bigger-140"></span> </a>
+   
+					</tr></tbody></table></td>
+					</tr></tbody></table></div></div></div></div>
+
+                                <div id="evaluation" class="tab-pane">
+                                    
+<div class="ui-widget ui-widget-content ui-corner-all ui-jqgrid" id="gbox_cevaluation" dir="ltr" style="width: 1251px;">
+	<div class="ui-widget-overlay jqgrid-overlay" id="lui_cevaluation"></div>
+	<div class="ui-state-default ui-state-active loading" id="load_cevaluation" style="display: none;">Loading...</div>
+	<div class="ui-jqgrid-view" role="grid" aria-multiselectable="false" id="gview_cevaluation" style="width: 1251px;">
+		<div class="ui-widget-header ui-corner-top ui-jqgrid-titlebar ui-jqgrid-caption">
+			<span class="ui-jqgrid-title">Evaluation</span><a role="link" class="ui-corner-all ui-jqgrid-titlebar-close" title="Toggle Expand Collapse Grid"><span class="ui-icon ui-icon-circle-triangle-n"></span></a></div>
+		<div class="ui-state-default ui-corner-top ui-jqgrid-hdiv" style="width: 1251px;">
+			<div class="ui-jqgrid-hbox" style="padding-right: 0px;">
+				<table class="ui-jqgrid-htable" style="width:1px" role="presentation" aria-labelledby="gbox_cevaluation">
+					<thead><tr class="ui-jqgrid-labels" role="row">
+						<th id="cevaluation_rn" class="ui-state-default ui-th-column ui-th-ltr jqgh_rn" style="width: 30px;"><div id="jqgh_cevaluation_rn"><span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="cevaluation_evaldate" class="ui-state-default ui-th-column ui-th-ltr" style="width: 241px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_cevaluation_evaldate" class="ui-jqgrid-sortable">Date<span class="s-ico" style=""><span class="ui-grid-ico-sort ui-icon-asc ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="cevaluation_timeeval" class="ui-state-default ui-th-column ui-th-ltr" style="width: 120px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_cevaluation_timeeval" class="ui-jqgrid-sortable">Time Evaluation<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="cevaluation_performanceeval" class="ui-state-default ui-th-column ui-th-ltr" style="width: 120px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_cevaluation_performanceeval" class="ui-jqgrid-sortable">Technical Evaluation<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th>
+						<th id="cevaluation_notes" class="ui-state-default ui-th-column ui-th-ltr" style="width: 722px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr">&nbsp;</span><div id="jqgh_cevaluation_notes" class="ui-jqgrid-sortable">Notes<span class="s-ico" style="display:none"><span class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-jqgrid-disablePointerEvents ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th></tr>
+						</thead></table></div></div><
+		div class="ui-state-error ui-jqgrid-errorbar ui-jqgrid-errorbar-ltr" style="display:none;"><span class="ui-jqgrid-error"></span></div>
+		<div class="ui-jqgrid-bdiv" style="height: 200px; width: 1251px;">
+			<div style="position:relative;">
+				<table id="cevaluation" tabindex="0" role="presentation" aria-labelledby="gbox_cevaluation" class="ui-jqgrid-btable" style="width: 1px;">
+					<tbody><tr class="jqgfirstrow" role="row" style="height:auto">
+						<td role="gridcell" style="height:0;width:30px;"></td>
+						<td role="gridcell" style="height:0;width:241px;"></td>
+						<td role="gridcell" style="height:0;width:120px;"></td>
+						<td role="gridcell" style="height:0;width:120px;"></td>
+						<td role="gridcell" style="height:0;width:722px;"></td>
+						</tr>
+					</tbody></table></div></div></div>
+	<div class="ui-widget-header ui-jqgrid-resize-mark" id="rs_mcevaluation">&nbsp;</div>
+	<div id="pagercequipment" class="ui-state-default ui-jqgrid-pager ui-corner-bottom" dir="ltr" style="width: 1276px;">
+		<div id="pg_pagercequipment" class="ui-pager-control" role="group">
+			<table class="ui-pg-table" style="width:100%;table-layout:fixed;height:100%;">
+				<tbody><tr>
+					<td id="pagercontract_left" style="text-align:left;"><div class="ui-pg-table navtable" role="toolbar" style="float:left;table-layout:auto;">
+				 	 <a href="form.php" role="button" class="ui-pg-button ui-corner-all" title="Add">
+						<div class="ui-pg-div"><span class="ui-icon ace-icon fa fa-plus-circle purple"></span></div></a>
+				 </div></td>
+					<td id="pagerhospital_center" style="text-align: center; white-space: pre; width: 332px;display: flex;">
+		<table style="table-layout:auto;white-space: pre;margin-left:auto;margin-right:auto;" class="ui-pg-table">
+			<tbody>
+				<tr><a aria-label="Previous" href="<?php printf("%s?pageNum_rs_contract=%d%s", $currentPage, max(0, $pageNum_rs_contract - 1), $queryString_rs_contract); ?>"><span class="ui-icon ace-icon fa fa-angle-left bigger-140"></span>  Previous</a>
+					&nbsp;
+        <a aria-label="Next" href="<?php printf("%s?pageNum_rs_contract=%d%s", $currentPage, $totalPages_rs_contract, $queryString_rs_contract); ?>">Next   <span class="ui-icon ace-icon fa fa-angle-right bigger-140"></span> </a>
+   
+					</tr></tbody></table></td>
+					</tr></tbody></table></div></div>
+									</div>
+                                    
+                                </div>														
+                            </div>
+
+                            <script type="text/javascript">
+                                var $path_base = ".";//in Ace demo this will be used for editurl parameter
+                            </script>
+
+                            <!-- PAGE CONTENT ENDS -->
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+
+                            
+                    
+                </div><!-- /.page-content -->
+            </div>
+            
+</div>
+		
+        <!-- /.main-content -->
+
+   <div class="footer">
+            <div class="footer-inner">
+                <div class="footer-content">
+					<span class="bigger-120">
+                    <p style="background-color:#CCC;" align="center"><strong>Copyright &copy; 1995-2022 All Rights Reserved <a href="https://bmepplanner.com/" target="_blank">bmepplanner</a></strong></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+            <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+        </a>
+		    
+    </div><!-- /.main-container -->
+
+    <!-- basic scripts -->
+
+    <!--[if !IE]> -->
+    <script src="../assetss/js/jquery.2.1.1.min.js"></script>
+
+    <!-- <![endif]-->
+
+    <!--[if IE]>
+<script src="assetss/js/jquery.1.11.1.min.js"></script>
+<![endif]-->
+
+    <!--[if !IE]> -->
+    <script type="text/javascript">
+        window.jQuery || document.write("<script src='../assetss/js/jquery.min.js'>"+"<"+"/script>");
+    </script>
+
+    <!-- <![endif]-->
+
+    <!--[if IE]>
+<script type="text/javascript">
+window.jQuery || document.write("<script src='assetss/js/jquery1x.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+    <script type="text/javascript">
+        if('ontouchstart' in document.documentElement) document.write("<script src='../assetss/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+    </script>
+    <script src="../assetss/js/bootstrap.min.js"></script>
+
+    <!-- page specific plugin scripts -->
+ 
+       <script src="../assetss/js/echarts.min.js"></script><div id="scrnli_recorder_root"></div>
+    <script type="text/javascript" language="javascript" src="../assetss/js/jquery.dataTables.min.js"></script>		
+    <script type="text/javascript" language="javascript" src="../assetss/js/dataTables.responsive.min.js"></script>
+    <script type="text/javascript" language="javascript" src="../assetss/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" language="javascript" src="../assetss/js/bootstrap-multiselect.min.js"></script>
+    <script src="../assetss/js/jquery.validate.min.js"></script>
+    <script src="../assetss/js/jquery.validate.additional-methods.min.js"></script>
+    <script src="../assetss/js/jquery.form.min.js"></script>
+    
+
+
+    <!--[if lte IE 8]>
+      <script src="assetss/js/excanvas.min.js"></script>
+    <![endif]-->
+    <script src="../assetss/js/custom.js"></script>
+    <script src="../assetss/js/jquery-ui.min.js"></script>
+    <script src="../assetss/js/mobile-detect.min.js"></script>
+    <script src="../assetss/js/jquery.ui.touch-punch.min.js"></script>
+    <script src="../assetss/js/jquery.jqGrid.min.js"></script>
+    <script src="../assetss/js/grid.locale-en.js"></script>
+    <script src="../assetss/js/jqgrid-format.js"></script>
+    <script src="../assetss/js/jquery.jspanel.min.js"></script>
+    <script src="../assetss/js/moment.min.js"></script>
+    <script src="../assetss/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="../assetss/js/query-builder.standalone.min.js"></script>
+
+
+    <!-- ace scripts -->
+    <script src="assetss/js/ace-elements.min.js"></script>
+    <script src="assetss/js/ace.min.js"></script>
+
+    <!-- inline scripts related to this page -->
+    <script type="text/javascript">
+    
+       
+    </script>
+	  
+   
+   
+  </body>
+</html>
+<?php mysqli_free_result($rs_contract); ?>
